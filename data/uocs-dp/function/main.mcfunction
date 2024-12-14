@@ -1,0 +1,1 @@
+execute as @a at @s if block ~ ~ ~ grass run effect give @s minecraft:poison 1 0
