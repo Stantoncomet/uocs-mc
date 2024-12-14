@@ -1,1 +1,1 @@
-execute as @a at @s if block ~ ~ ~ grass run effect give @s minecraft:poison 1 0
+execute as @a at @s if block ~ ~ ~ short_grass run effect give @s minecraft:poison 1 1
