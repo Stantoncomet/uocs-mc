@@ -18,7 +18,7 @@ scoreboard players remove emeraldGen timeLeft 1
 execute if score emeraldGen timeLeft matches ..0 run execute as @e[tag=emeraldGen] at @s run function uocs-dp:tux_wars/generate {id:"emerald"}
 
 # Beds
-execute at @e[tag=redBed] if block ~ ~ ~ air run function uocs-dp:tux_wars/destroy_bed
+execute if score redTeam aliveTeams matches 1.. at @e[tag=redBed] if block ~ ~ ~ air run function uocs-dp:tux_wars/destroy_bed
 
 
 
