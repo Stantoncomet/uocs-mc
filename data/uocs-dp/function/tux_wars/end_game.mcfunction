@@ -1,0 +1,1 @@
+tellraw @a "game ended idk"
