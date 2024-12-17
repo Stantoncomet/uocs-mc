@@ -1,0 +1,1 @@
+scoreboard players set Game timeLeft 0
