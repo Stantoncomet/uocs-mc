@@ -6,13 +6,13 @@ execute as @a[scores={respawnLeft=..0}] run function uocs-dp:tux_wars/spawn_play
 
 # Generators
 scoreboard players remove brickGen timeLeft 1
-execute if score brickGen timeLeft matches ..0 run execute as @e[tag=brickGen] at @s run function uocs-dp:tux_wars/generate {id:"brick",cool_down:100}
+execute if score brickGen timeLeft matches ..0 run execute as @e[tag=brickGen] at @s run function uocs-dp:tux_wars/generate {id:"brick",cool_down:"100"}
 
 scoreboard players remove gold_ingotGen timeLeft 1
-execute if score gold_ingotGen timeLeft matches ..0 run execute as @e[tag=gold_ingotGen] at @s run function uocs-dp:tux_wars/generate {id:"gold_ingot",cool_down:300}
+execute if score gold_ingotGen timeLeft matches ..0 run execute as @e[tag=gold_ingotGen] at @s run function uocs-dp:tux_wars/generate {id:"gold_ingot",cool_down:"300"}
 
 scoreboard players remove emeraldGen timeLeft 1
-execute if score emeraldGen timeLeft matches ..0 run execute as @e[tag=emeraldGen] at @s run function uocs-dp:tux_wars/generate {id:"emerald",cool_down:600}
+execute if score emeraldGen timeLeft matches ..0 run execute as @e[tag=emeraldGen] at @s run function uocs-dp:tux_wars/generate {id:"emerald",cool_down:"600"}
 
 
 
