@@ -1,7 +1,7 @@
 scoreboard players reset @s respawnLeft
 
 effect give @s instant_health 1 255
-gamemode survival @s
+gamemode adventure @s
 clear @s
 
 tp @s[tag=redTeam] 0 0 0
