@@ -26,6 +26,8 @@ execute as @a[distance=..10] at @s run function uocs-dp:tux_wars/spawn_player
 # Beds
 execute at @e[tag=redBed] run setblock ~ ~ ~ red_bed
 execute at @e[tag=redBed] run setblock ~ ~ ~-1 red_bed[part=head]
+execute at @e[tag=greenBed] run setblock ~ ~ ~ lime_bed
+execute at @e[tag=greenBed] run setblock ~ ~ ~-1 lime_bed[part=head]
 
 
 # Teams
