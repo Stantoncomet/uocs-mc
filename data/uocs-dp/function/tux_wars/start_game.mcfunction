@@ -29,10 +29,10 @@ execute at @e[tag=redBed] run setblock ~ ~ ~-1 red_bed[part=head]
 
 
 # Teams
-execute if entity @a[tag=redTeam] run scoreboard players set redTeam aliveTeams 1
-execute if entity @a[tag=purpleTeam] run scoreboard players set purpleTeam aliveTeams 1
-execute if entity @a[tag=orangeTeam] run scoreboard players set orangeTeam aliveTeams 1
-execute if entity @a[tag=greenTeam] run scoreboard players set greenTeam aliveTeams 1
+execute if entity @a[tag=redTeam] run scoreboard players set redTeam aliveBeds 1
+execute if entity @a[tag=purpleTeam] run scoreboard players set purpleTeam aliveBeds 1
+execute if entity @a[tag=orangeTeam] run scoreboard players set orangeTeam aliveBeds 1
+execute if entity @a[tag=greenTeam] run scoreboard players set greenTeam aliveBeds 1
 
 
 function uocs-dp:tux_wars/main
