@@ -14,11 +14,11 @@ scoreboard players set emeraldGen timeLeft 0
 
 
 # Global spawnpoint, respawn zone
-spawnpoint @a -290 219 133
+spawnpoint @a -290 220 133
 
 
 # Distance from start button command block
-execute as @r[distance=..10] at @s run function uocs-dp:tux_wars/spawn_player
+execute as @a[distance=..10] at @s run function uocs-dp:tux_wars/spawn_player
 #execute as @r[distance=..10] at @s run function uocs-dp:tux_wars/spawn_player {x:0, y:200, z:0}
 #execute as @r[distance=..10] at @s run function uocs-dp:tux_wars/spawn_player {x:0, y:200, z:0}
 #execute as @r[distance=..10] at @s run function uocs-dp:tux_wars/spawn_player {x:0, y:200, z:0}

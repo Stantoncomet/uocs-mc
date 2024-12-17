@@ -1,3 +1,3 @@
 scoreboard players set redTeam aliveBeds 0
-title @a title {"text":"Bed Update!"}
-title @a subtitle {"text":"Red can no longer respawn"}
+title @a title {"text":"Bed Update!", "color":"dark_gray"}
+$title @a subtitle {"text":"$(team) can no longer respawn"}
