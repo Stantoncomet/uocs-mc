@@ -4,7 +4,7 @@
 # 20*1 = 1 sec
 scoreboard players set resin_brickGen cooldowns 20
 # 20*10 = 10 sec
-scoreboard players set amethystGen cooldowns 200
+scoreboard players set amethyst_shardGen cooldowns 200
 # 20*20 = 20 sec
 scoreboard players set nether_starGen cooldowns 400
 # 20*45 = 45 sec

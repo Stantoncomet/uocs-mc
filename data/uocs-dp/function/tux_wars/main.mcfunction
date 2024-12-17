@@ -8,8 +8,8 @@ execute as @a[scores={respawnLeft=..0}] run function uocs-dp:tux_wars/spawn_play
 scoreboard players remove resin_brickGen timeLeft 1
 execute if score resin_brickGen timeLeft matches ..0 run execute as @e[tag=resin_brickGen] at @s run function uocs-dp:tux_wars/generate {id:"resin_brick"}
 
-scoreboard players remove amethystGen timeLeft 1
-execute if score amethystGen timeLeft matches ..0 run execute as @e[tag=amethystGen] at @s run function uocs-dp:tux_wars/generate {id:"amethyst"}
+scoreboard players remove amethyst_shardGen timeLeft 1
+execute if score amethyst_shardGen timeLeft matches ..0 run execute as @e[tag=amethyst_shardGen] at @s run function uocs-dp:tux_wars/generate {id:"amethyst_shard"}
 
 scoreboard players remove nether_starGen timeLeft 1
 execute if score nether_starGen timeLeft matches ..0 run execute as @e[tag=nether_starGen] at @s run function uocs-dp:tux_wars/generate {id:"nether_star"}
