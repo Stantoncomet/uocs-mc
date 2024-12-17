@@ -7,7 +7,7 @@ setblock 111 222 333 redstone_block
 scoreboard players set Game timeLeft 36000
 
 scoreboard players set resin_brickGen timeLeft 0
-scoreboard players set amethystGen timeLeft 0
+scoreboard players set amethyst_shardGen timeLeft 0
 scoreboard players set nether_starGen timeLeft 0
 scoreboard players set emeraldGen timeLeft 0
 
