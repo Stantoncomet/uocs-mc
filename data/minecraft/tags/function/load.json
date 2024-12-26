@@ -1,5 +1,6 @@
 {
     "values": [
-        "uocs-dp:init"
+        "uocs-dp:init",
+        "uocs-dp:tux_wars/init"
     ]
 }

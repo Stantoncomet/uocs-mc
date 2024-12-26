@@ -12,6 +12,7 @@ scoreboard players set amethyst_shardGen timeLeft 0
 scoreboard players set nether_starGen timeLeft 0
 scoreboard players set emeraldGen timeLeft 0
 
+scoreboard players reset * genCount
 
 # Global spawnpoint, respawn zone
 spawnpoint @a -290 220 133
