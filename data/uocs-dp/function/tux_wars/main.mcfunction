@@ -11,7 +11,7 @@ execute if score resin_brickGen timeLeft matches ..0 run execute as @e[tag=resin
 scoreboard players remove amethyst_shardGen timeLeft 1
 execute if score amethyst_shardGen timeLeft matches ..0 run execute as @e[tag=amethyst_shardGen] at @s run function uocs-dp:tux_wars/generate {id:"amethyst_shard",cap:32}
 
-scoreboard players remove nether_starGen timeLeft 1
+#scoreboard players remove nether_starGen timeLeft 1
 execute if score nether_starGen timeLeft matches ..0 run execute as @e[tag=nether_starGen] at @s run function uocs-dp:tux_wars/generate {id:"nether_star",cap:16}
 
 scoreboard players remove emeraldGen timeLeft 1
