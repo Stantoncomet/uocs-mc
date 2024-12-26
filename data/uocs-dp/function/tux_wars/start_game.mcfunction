@@ -7,10 +7,10 @@ setblock 111 222 333 redstone_block
 # Reset timers
 execute store result score Game timeLeft run scoreboard players get Game cooldowns
 
-scoreboard players set resin_brickGen timeLeft 0
-scoreboard players set amethyst_shardGen timeLeft 0
-scoreboard players set nether_starGen timeLeft 0
-scoreboard players set emeraldGen timeLeft 0
+scoreboard players set resin_brickGen timeLeft 1
+scoreboard players set amethyst_shardGen timeLeft 1
+scoreboard players set nether_starGen timeLeft 1
+scoreboard players set emeraldGen timeLeft 1
 
 scoreboard players reset * genCount
 
