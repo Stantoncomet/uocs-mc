@@ -4,6 +4,7 @@ scoreboard objectives add respawnLeft dummy
 scoreboard objectives add cooldowns dummy
 scoreboard objectives add aliveTeams dummy {"text": "Remaining Teams"}
 scoreboard objectives add aliveBeds dummy
+scoreboard objectives add genCount dummy
 
 scoreboard objectives setdisplay sidebar timeLeft
 
